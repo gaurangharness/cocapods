@@ -1,17 +1,7 @@
-def common_pods
-    pod 'FooHeadersPod', :path => 'FooHeadersPod'
-    pod 'BarHeadersPod', :path => 'BarHeadersPod'
-  end
-  
-  target 'App' do
-    common_pods
-  end
-  
-  def cleanup
-    # Add any cleanup tasks here if necessary
-    puts "Performing cleanup tasks..."
-    # Example cleanup task: remove temporary files or directories
-    # File.delete('temporary_file.txt')
-    # Dir.rmdir('temporary_directory')
-  end
-  
+# Seedfile
+
+def main():
+  print("Hello, World!")
+
+if __name__ == "__main__":
+  main()
