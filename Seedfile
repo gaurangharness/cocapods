@@ -1,0 +1,14 @@
+platform :osx, '10.9'
+
+plugin 'cocoapods-packager', {
+  :packager_version => '>= 1.5.0'
+}
+
+def common_pods
+  pod 'FooHeadersPod', :path => 'FooHeadersPod'
+  pod 'BarHeadersPod', :path => 'BarHeadersPod'
+end
+
+target 'App' do
+  common_pods
+end
