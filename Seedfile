@@ -1,7 +1,7 @@
 # Seedfile
 
-def main():
-  print("Hello, World!")
+def main
+  puts "Hello, World!"
+end
 
-if __name__ == "__main__":
-  main()
+main if __FILE__ == $0
