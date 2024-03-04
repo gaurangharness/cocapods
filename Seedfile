@@ -1,4 +1,6 @@
-platform :osx, '10.9'
+# Since CocoaPods doesn't natively support Linux, we'll keep the rest of the seedfile intact
+# but we'll remove the platform declaration for macOS.
+# platform :osx, '10.9' 
 
 plugin 'cocoapods-packager', {
   :packager_version => '>= 1.5.0'
