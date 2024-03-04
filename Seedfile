@@ -12,3 +12,7 @@ end
 target 'App' do
   common_pods
 end
+
+def cleanup
+  # Add any cleanup tasks here if necessary
+end
